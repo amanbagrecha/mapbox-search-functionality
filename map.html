@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/map.css" />
+
+		<!-- <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
+
+</head>     
+<body>
+
+
+
+<!--Make sure the form has the autocomplete function switched off:-->
+
+
+<nav class="navbar navbar-light bg-light justify-content-between">
+
+	  <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+  <button type="button" data-toggle="collapse" style="display: inline-block; margin:  1rem; float: left;" onclick="location.href='./index.html'" >
+    <span >Home</span>
+  </button>
+
+  <!-- <a class="navbar-brand" href="./index.html">Home</a> -->
+  <form class="form-inline" autocomplete="off" method="post" style="display: inline-block; margin:  1rem; float: right;">
+  <div class="autocomplete" style="width:300px;">
+	<input id="myInput" type="text"  class="form-control mr-sm-2" name="myCountry" placeholder="Country">
+  </div>
+  <input type="submit"  class="btn btn-outline-success my-2 my-sm-0" id = "geocodingSubmit">
+</form>
+</nav>
+
+<div id='project_map', class="map"></div>
+
+<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+<script type="text/javascript" src="./assets/js/map.js"></script>
+
+
+</body>
+</html>
+
+
+
+
