@@ -1,6 +1,8 @@
 # 💥Search-Zoom to address via Mapbox API
 ## Web application which lets you geocode address and zoom in with the help of mapbox API.
 This application is developed to let users geocode address and zoom into that location. In this application tries to replicate google maps search functionality. We use Openlayers V6, an open-source JavaScript library for mapping. 
+
+The associated blog post can be found ![here](https://amanbagrecha.github.io/post/openlayers/geocode-using-mapbox-api-with-zoom-functionality/)
 ## 🛠️ Usage
 
 That's pretty easy. The application is hosted on github pages which can be accessed :link: [here](https://amanbagrecha.github.io/mapbox-search-functionality/)
